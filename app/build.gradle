@@ -7,6 +7,8 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
+
+
     defaultConfig {
         applicationId "com.wixsite.mupbam1.resume.teldeal"
         minSdkVersion 16
@@ -29,6 +31,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
     }
 }
 
